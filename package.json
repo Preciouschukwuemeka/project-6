@@ -1,0 +1,25 @@
+{
+  "name": "project-6",
+  "version": "1.0.0",
+  "description": "PRECIOUS C. CHUKWUEMEKA",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preciouschukwuemeka/project-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Preciouschukwuemeka/project-6/issues"
+  },
+  "homepage": "https://github.com/Preciouschukwuemeka/project-6#readme"
+}
