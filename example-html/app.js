@@ -1,2 +1,2 @@
- const express = ('express');
- const app = express()
+const express = ('express');
+const app = express();
