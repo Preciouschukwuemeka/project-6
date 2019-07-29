@@ -1,0 +1,71 @@
+{
+
+	"projects": [{
+			"id": 1,
+			"project_name": "A Random Quote Generator",
+			"description": "An app that displays random famous quotes each time a button is clicked",
+			"technologies": [
+				"JavaScript", "HTML", "CSS"
+			],
+			"live_link": " https://preciouschukwuemeka.github.io/project-1/",
+			"github_link": "https://github.com/Preciouschukwuemeka/project-1",
+			"image_urls": [
+				""
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "List Pagination and Filtering",
+			"description": " Adding pagination and filtering to a list using plain JS",
+			"technologies": [
+				"JavaScript", "HTML", "CSS"
+			],
+			"live_link": " https://preciouschukwuemeka.github.io/project-2/",
+			"github_link": "https://github.com/Preciouschukwuemeka/project-2",
+			"image_urls": [
+				""
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "Interactive Form",
+			"description": "Adding form validation and interactivity to a web form",
+			"technologies": [
+				"JavaScript", "HTML", "CSS", "jQuery"
+			],
+			"live_link": "https://preciouschukwuemeka.github.io/project-3/",
+			"github_link": "https://github.com/Preciouschukwuemeka/project-3",
+			"image_urls": [
+				""
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "OOP Game Show App",
+			"description": "A browser based game called 'Phrase Hunter'",
+			"technologies": [
+				"JavaScript", "HTML", "CSS", "jQuery", "OOP"
+			],
+			"live_link": "https://preciouschukwuemeka.github.io/project-4/",
+			"github_link": "https://github.com/Preciouschukwuemeka/project-4",
+			"image_urls": [
+				""
+			]
+		},
+		{
+			"id": 5,
+			"project_name": "Public API Requests",
+			"description": "An app that displays random employees by requesting a JSON object from a public API",
+			"technologies": [
+				"JavaScript", "HTML", "CSS", "jQuery", "Ajax"
+			],
+			"live_link": "https://preciouschukwuemeka.github.io/project-5/",
+			"github_link": "https://github.com/Preciouschukwuemeka/project-5",
+			"image_urls": [
+				""
+			]
+		}
+
+	]
+
+}
