@@ -1,7 +1,7 @@
 {
 
 	"projects": [{
-			"id": 1,
+			"id": 0,
 			"project_name": "A Random Quote Generator",
 			"description": "An app that displays random famous quotes each time a button is clicked",
 			"technologies": [
@@ -10,11 +10,11 @@
 			"live_link": " https://preciouschukwuemeka.github.io/project-1/",
 			"github_link": "https://github.com/Preciouschukwuemeka/project-1",
 			"image_urls": [
-				"/Images/project1.PNG","/Images/project1.2.PNG"
+				"/static/Images/project1.PNG","/Images/project1.2.PNG"
 			]
 		},
 		{
-			"id": 2,
+			"id": 1,
 			"project_name": "List Pagination and Filtering",
 			"description": " Adding pagination and filtering to a list using plain JS",
 			"technologies": [
@@ -23,11 +23,11 @@
 			"live_link": " https://preciouschukwuemeka.github.io/project-2/",
 			"github_link": "https://github.com/Preciouschukwuemeka/project-2",
 			"image_urls": [
-				"/Images/project2.PNG","/Images/project2.2.PNG"
+				"/static/Images/project2.PNG","/Images/project2.2.PNG"
 			]
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"project_name": "Interactive Form",
 			"description": "Adding form validation and interactivity to a web form",
 			"technologies": [
@@ -36,11 +36,11 @@
 			"live_link": "https://preciouschukwuemeka.github.io/project-3/",
 			"github_link": "https://github.com/Preciouschukwuemeka/project-3",
 			"image_urls": [
-				"/Images/project3.PNG","/Images/project3.3.PNG"
+				"/static/Images/project3.PNG","/Images/project3.3.PNG"
 			]
 		},
 		{
-			"id": 4,
+			"id": 3,
 			"project_name": "OOP Game Show App",
 			"description": "A browser based game called 'Phrase Hunter'",
 			"technologies": [
@@ -49,11 +49,11 @@
 			"live_link": "https://preciouschukwuemeka.github.io/project-4/",
 			"github_link": "https://github.com/Preciouschukwuemeka/project-4",
 			"image_urls": [
-				"/Images/project4.PNG/","/Images/project4.4.PNG/","/Images/project4.41.PNG"
+				"/static/Images/project4.PNG","/Images/project4.4.PNG/","/Images/project4.41.PNG"
 			]
 		},
 		{
-			"id": 5,
+			"id": 4,
 			"project_name": "Public API Requests",
 			"description": "An app that displays random employees by requesting a JSON object from a public API",
 			"technologies": [
@@ -62,7 +62,7 @@
 			"live_link": "https://preciouschukwuemeka.github.io/project-5/",
 			"github_link": "https://github.com/Preciouschukwuemeka/project-5",
 			"image_urls": [
-				"/Images/project5.PNG","/Images/project5.5.PNG","/Images/project5.51.PNG"
+				"/static/Images/project5.PNG","/Images/project5.5.PNG","/Images/project5.51.PNG"
 			]
 		}
 

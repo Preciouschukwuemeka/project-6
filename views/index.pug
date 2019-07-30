@@ -9,10 +9,13 @@ block content
       h3 Project Athena Apprentice
       //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light
-        | my Discription
+        | This portfolio showcases my recent projects, providing a short overview of each project, along with title and a link to the live-project-site.
+
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+     each project in projects
 
       //- Use the Pug `each` iterator to create a projet img, title and link in the markup for each of the projects you are showcasing.  
       
@@ -21,7 +24,11 @@ block content
       //- Here's what the Pug for each project example should look like. 
 
       .cell
-        a(href='#')
-          img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
+        a(href=projects.live_link)
+        img.thumbnail(src=project.image_urls[0])
+        h5 #{project.project_name}
+
+           
+            
+          
       
