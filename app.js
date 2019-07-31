@@ -1,12 +1,14 @@
 const express = require('express');
+const app = express();
+
+
 const pug = require('pug');
 const path = require('path');
 const data = require('./data.json');
-//const bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 
 
-const app = express();
-//app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({ extended: false}));
 
 
 // Set pug
@@ -29,10 +31,10 @@ app.get("/about", function(req, res, next){
 // Project route with ID param
 app.get("/project/:id", function(req, res, next){
     const pro = parseInt(req.params.id);
-    const project = projects[pro];
+    const project = data.projects[pro];
   
     // check if project page has valid ID else throw specific project page error
-    if(Number.isInteger(pro) && pro < projects.length && pro >= 0){
+    if(Number.isInteger(pro) && pro < data.projects.length && pro >= 0){
       return res.render('project',{project});
     } else{
       let err = new Error("This project page doesn't exist");
