@@ -11,17 +11,12 @@ Static Node.js and Express Site
 
 This project portfolio showcases a website built using Node.js, Express and Pug.
 
-Dependencies include:
-
-Express
-Pug
-nodemon
+Dependencies include: Express, Pug, nodemon.
 
 
 
-Style changes include:
+Style changes include: BG to silver,  sidebar BG to black,Buttons to maroon.
 
-BG to silver, sidebar BG to black,Buttons to maroon.
 
 
 
