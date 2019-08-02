@@ -32,10 +32,12 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   background-color: maroon;
+  border-radius: 25px;
 }
 
 .button:hover{
   background-color:limegreen;
+  border-radius: 50%;
 }
 
 a{
@@ -51,7 +53,7 @@ a:hover{
   max-width: 100%;
   margin-bottom: 1rem;
   border: solid 4px black;
-  border-radius: 0;
+  border-radius: 30px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
@@ -61,6 +63,7 @@ a:hover{
   background: black;
   color: lime;
   box-shadow: none !important;
+  border-radius: 15%;
 }
 
   .portfolio-me p{
@@ -72,7 +75,7 @@ a:hover{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: red;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -110,14 +113,17 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+ 
 }
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    border-radius: 8%;
+    border-color: black;
   }
 
   .portfolio-index a{
-    color: black;
+    color: maroon;
   }
 
   .portfolio-index .cell{

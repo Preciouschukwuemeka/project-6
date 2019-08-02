@@ -1,35 +1,49 @@
-const express = require('express');
+
+/*** Creating and requiring variables and Dependencies. ***/
+
+const express = require('express');                                             
 const app = express();
-
-
-const pug = require('pug');
+const pug = require('pug');                                                      
 const path = require('path');
 const data = require('./data.json');
-//const bodyParser = require('body-parser');
 
 
-//app.use(bodyParser.urlencoded({ extended: false}));
 
 
-// Set pug
+
+/*** Setting up Middleware ***/
+
+
+// Setting view Engine to pug.
 app.set('view engine', 'pug');
 
-// Set static route
+
+
+
+// Setting up static route
 app.use('/static', express.static('public'));
 
+
+
+
 // Index route
-app.get("/", function(req, res, next){
+app.get("/", (req, res, next)=>{
     res.render('index', {projects: data.projects});
   })
 
-  // About route
-app.get("/about", function(req, res, next){
+
+
+
+// About route
+app.get("/about", (req, res, next)=>{
     res.render('about');
   })
 
- 
+  
+
+
 // Project route with ID param
-app.get("/project/:id", function(req, res, next){
+app.get("/project/:id", (req, res, next)=>{
     const pro = parseInt(req.params.id);
     const project = data.projects[pro];
   
@@ -44,30 +58,38 @@ app.get("/project/:id", function(req, res, next){
 
 
 
-// App listen
+
+// Starting server
 app.listen(3000,  () => {
     console.log('The App is listening to port 3000')
    })
 
    
 
+
 // Unspecific 404 error
-app.use(function(req, res, next){
+app.use((req, res, next)=>{
     const err = new Error('Not found')
     next(err);
   });
 
+
+
   
 // Print error page
-app.use(function(err, req, res, next) {
+app.use((err, req, res, next) => {
     if (res.headersSent) {
       return next(err);
     }
     res.locals.error = err;
     err.status = 404;
     
+
+
   // Console Log
   console.error('Error message:', err.message, ', Error status:', err.status)
+
+
 
   // Error Page
   res.status(err.status);
