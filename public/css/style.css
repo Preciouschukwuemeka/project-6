@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: red;
+  color: rgba(14, 105, 105, 0.965);
 }
 
 .button{
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: red;
+  color: black;
 }
 
 a:hover{
@@ -123,7 +123,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: maroon;
+    color: black;
   }
 
   .portfolio-index .cell{
